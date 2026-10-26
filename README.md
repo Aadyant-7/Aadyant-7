@@ -1,23 +1,23 @@
 # Hi, I'm Aadyant
 
-### Full-stack development · Data engineering · Explainable ML
+### Explainable ML · Data engineering · Full-stack development
 
 I'm a computer science student in New Delhi. I build applications that connect useful interfaces with backend systems, data analysis and machine learning.
 
-My recent work spans shared-expense software, an interactive data-quality workspace, and skin-lesion classification research. I care about the details behind the demo: exact calculations, clear evidence, reproducible results and documented tradeoffs.
+My recent work spans skin-lesion classification research, an interactive data-quality workspace, and shared-expense software. I care about the details behind the demo: exact calculations, clear evidence, reproducible results and documented tradeoffs.
 
 ## Selected projects
 
-### [SplitNest](https://github.com/Aadyant-7/splitnest)
-**Shared expenses, from the interface to deployment.**
+### [Skin Lesion Classification & XAI](https://github.com/Aadyant-7/attention-based-skin-lesion-classification-xai)
+**Computer vision research with traceable evaluation.**
 
-A full-stack application for households and travel groups: record expenses, calculate exact INR splits, import CSV/XLSX statements and track group balances and monthly budgets.
+Seven-class HAM10000 classification using pretrained networks, ensemble inference, CBAM attention and Grad-CAM explanations.
 
-- React and TypeScript interface backed by Java 21, Spring Boot, PostgreSQL and Redis.
-- Group permissions, rotating refresh sessions, background imports and persistent financial history.
-- Docker Compose and local Kubernetes delivery, GitHub Actions, Argo CD, Prometheus and Grafana.
+- Final six-model ensemble with saved predictions, class metrics and experiment records.
+- Separate exploratory and lesion-disjoint evaluation protocols, with their limitations documented.
+- Branch-level explanation gallery and a saved Grad-CAM atlas.
 
-[Architecture](https://github.com/Aadyant-7/splitnest/blob/main/docs/architecture.md) · [Demo walkthrough](https://github.com/Aadyant-7/splitnest/blob/main/docs/demo.md) · [Verification](https://github.com/Aadyant-7/splitnest/blob/main/docs/evidence/verification.md)
+[Results and evaluation](https://github.com/Aadyant-7/attention-based-skin-lesion-classification-xai#final-retained-method-and-status) · [Explanation gallery documentation](https://github.com/Aadyant-7/attention-based-skin-lesion-classification-xai/blob/main/results/final_s83_xai/v1/README.md)
 
 ### [Data Quality Studio](https://github.com/Aadyant-7/intelligent-data-quality-framework)
 **Understand a dataset before trusting it.**
@@ -30,16 +30,16 @@ A workspace for profiling CSV and Excel data, assessing completeness and duplica
 
 [Live demo](https://intelligent-data-quality-framework.vercel.app/) · [Technical documentation](https://github.com/Aadyant-7/intelligent-data-quality-framework/blob/main/docs/Documentation.md)
 
-### [Skin Lesion Classification & XAI](https://github.com/Aadyant-7/attention-based-skin-lesion-classification-xai)
-**Computer vision research with traceable evaluation.**
+### [SplitNest](https://github.com/Aadyant-7/splitnest)
+**Shared expenses, from the interface to deployment.**
 
-Seven-class HAM10000 classification using pretrained networks, ensemble inference, CBAM attention and Grad-CAM explanations.
+A full-stack application for households and travel groups: record expenses, calculate exact INR splits, import CSV/XLSX statements and track group balances and monthly budgets.
 
-- Final six-model ensemble with saved predictions, class metrics and experiment records.
-- Separate exploratory and lesion-disjoint evaluation protocols, with their limitations documented.
-- Branch-level explanation gallery and a saved Grad-CAM atlas.
+- React and TypeScript interface backed by Java 21, Spring Boot, PostgreSQL and Redis.
+- Group permissions, rotating refresh sessions, background imports and persistent financial history.
+- Docker Compose and local Kubernetes delivery, GitHub Actions, Argo CD, Prometheus and Grafana.
 
-[Results and evaluation](https://github.com/Aadyant-7/attention-based-skin-lesion-classification-xai#final-retained-method-and-status) · [Explanation gallery documentation](https://github.com/Aadyant-7/attention-based-skin-lesion-classification-xai/blob/main/results/final_s83_xai/v1/README.md)
+[Architecture](https://github.com/Aadyant-7/splitnest/blob/main/docs/architecture.md) · [Demo walkthrough](https://github.com/Aadyant-7/splitnest/blob/main/docs/demo.md) · [Verification](https://github.com/Aadyant-7/splitnest/blob/main/docs/evidence/verification.md)
 
 ## Tools I use
 
